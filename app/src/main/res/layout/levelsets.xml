@@ -1,0 +1,2221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+  <LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <TextView android:id="@+id/thinkingRabbitLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Thinking Rabbit" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsOriginalAndExtraButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Original &amp; Extra" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBoxxle1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Boxxle 1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBoxxle2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Boxxle 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPerfectButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Perfect" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsThinkingRabbitArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Thinking Rabbit Arranged" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/aymericDuPelouxLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Aymeric du Peloux" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMiniCosmosButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mini Cosmos" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMicroCosmosButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Micro Cosmos" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPicoCosmosButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Pico Cosmos" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNaboCosmosButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Nabo Cosmos" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmonotesButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmonotes" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmopolyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmopoly" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMyriocosmosButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Myriocosmos" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/davidHollandLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="David Holland" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTheDH1CollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The DH1 collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTheDH2CollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The DH2 collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTheBagatelleCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The Bagatelle collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTheBagatelle2CollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The Bagatelle 2 collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTheCantripCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The Cantrip collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTheCantrip2CollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The Cantrip 2 collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTheMaelstromCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The Maelstrom collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDh5Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="dh5" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/davidWSkinnerLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="David W Skinner" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMicrobanButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Microban (easy)" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMicrobanIIButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Microban II" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMicrobanIIIButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Microban III" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMicrobanIVButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Microban IV" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMasSasquatchButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mas Sasquatch" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchIIIButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch III" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchIVButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch IV" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchVButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch V" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchVIButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch VI" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchVIIButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch VII" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchVIIIButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch VIII" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchIXButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch IX" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchXButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch X" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDavidWSkinnerArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="David W. Skinner Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchXIButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch XI" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatchXIIButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch XII" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/yoshioMuraseLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Yoshio Murase" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsYoshioMurasesHandMadeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Yoshio Murase's Hand-Made" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsYoshioMurasesAutoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Yoshio Murase's Auto" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/albertoGarciaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Alberto Garcia" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsAlbertoGarciaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alberto Garcia" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAlbertoGarcia2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alberto Garcia 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAlbertoGarcia3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alberto Garcia 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAlbertoGarcia4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alberto Garcia 4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAlbertoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alberto" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAlbertoGarciaPlus2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alberto Garcia Plus 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAlbertoMultipackButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alberto Multipack" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBirthdayButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Birthday" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNewYearButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="New Year" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPuzzleButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Puzzle" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsStrategyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Strategy" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsZigZagPlusButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Zig Zag Plus" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/ericFTchongLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Eric F Tchong" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsAruba1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAruba2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAruba3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAruba4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAruba5Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba5" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAruba6Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba6" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAruba7Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba7" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAruba8Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba8" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAruba9Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba9" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAruba10Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aruba10" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmacButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmac2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmac3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmac4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac 4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmac5Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac 5" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmac6Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac 6" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmac7Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac 7" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmac8Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac 8" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmac9Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac 9" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCosmac10Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cosmac 10" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSerena1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serena1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSerena2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serena2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSerena3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serena3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSerena4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serena4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSerena5Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serena5" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSerena6Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serena6" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSerena7Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serena7" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSerena8Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serena8" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSerena9Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serena9" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAlakinaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alakina" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAlejandroButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alejandro" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas03Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas03" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas04Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas04" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas05Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas05" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas06Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas06" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas07Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas07" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas08Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas08" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas09Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas09" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAtlas10Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Atlas10" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCadushiButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cadushi" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi03Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi03" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi04Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi04" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi05Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi05" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi06Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi06" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi07Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi07" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi08Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi08" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi09Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi08" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi10Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi10" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi11Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi 11" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi12Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi 12" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi13Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi 13" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi14Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi 14" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChuchubi15Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chuchubi 15" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi03Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 03" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi04Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 04" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi05Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 05" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi06Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 06" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi07Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 07" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi08Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 08" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi09Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 09" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi10Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 10" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi11Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 11" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi12Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 12" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDushi13Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dushi 13" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsEricFTchongArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Eric F. Tchong Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMangoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mango" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsOriginal51_90RemodeledButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Original 51-90 remodeled" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPassionFruitButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Passion Fruit" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTammyRockButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Tammy Rock" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBringamosaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bringamosa" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCappuccinoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cappuccino" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsLaGolondrina01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="La Golondrina 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsUnicoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Unico" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/evgeniyGrigorievLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Evgeniy Grigoriev" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsGrigr2001Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Grigr 2001" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGrigr2002Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Grigr 2002" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGrigrChallengeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Grigr Challenge" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGrigrCometButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Grigr Comet" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGrigrSpecialButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Grigr Special" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGrigrStarButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Grigr Star" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGrigrSunButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Grigr Sun" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRemodelClubButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Remodel Club" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/FrancoisMarquesLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="François Marques" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSolobanButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Soloban" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levels100BoxesButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="100 Boxes" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNumbersButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Numbers" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKokobanButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kokoban" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokobanOnlineButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokoban Online" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokolateButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokolate" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNovobanButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Novoban" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokompactButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokompact" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/howardAbedLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Howard Abed" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsHowardLevels1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Howard Levels 1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsHowardsSecondSetButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Howard's Second Set" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsHowardsThirdSetButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Howard's Third Set" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsHowardsFourthSetButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Howard's Fourth Set" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokoCreationButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SokoCreation" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokobig70Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokobig 70" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokobig80Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokobig 80" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/jaquesDuthenLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Jaques Duthen" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsDimitriAndYorickButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dimitri &amp; Yorick" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokogen990602LevelsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokogen-990602 Levels" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/jordiDomenechLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Jordi Domenech" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsHaikemonoCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Haikemono collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsHaikemonoCollection2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Haikemono collection 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisVariations01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Variations 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisVariations02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Variations 02" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/leeHaywoodLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Lee Haywood" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTheSokHardCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The SokHard collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTheSokEvoCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The SokEvo collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/markoDzekicLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Marko Dzekic" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsComplexSimplicityButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Complex Simplicity" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGaladrielButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Galadriel" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMarkoDzekicButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Marko Dzekic" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAmazingOrimazingButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Amazing Orimazing" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRemodelingButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Remodeling" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokoSpaceButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SokoSpace" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/svenEgevadLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Sven Egevad" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSharpenCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sharpen Collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSvensCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Svens Collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsYasgood2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Yasgood 2" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/thomasReinkeLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Thomas Reinke" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levels81Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="81" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAlbiziaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Albizia" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAnomalyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Anomaly" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCalxButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Calx" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPateraButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Patera" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokomaniaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokomania" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTBoxButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="TBox" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTBox2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="TBox 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTBox3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="TBox 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTBox4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="TBox 4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTBox5Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="TBox 5" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsYASGoodButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="YASGood" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAnomaly2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Anomaly 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAnomaly3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Anomaly 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsQuagmireButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Quagmire" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsQuagmire2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Quagmire 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsQuagmire3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Quagmire 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsScoriaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Scoria" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsScoria2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Scoria 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsScoria3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Scoria 3" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/miscAuthorsLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Misc. authors" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsFPokornyCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="F. Pokorny collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSylvieButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sylvie" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/a1masterLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="A1master" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levels1000001CandlelightsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="1,000,001 candlelights" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levels1000002CandlelightsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="1,000,002 candlelights" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/vipulPatelLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Vipul Patel" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levels100000MovesOnlyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="100,000 moves only" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGrigrChallengeRemodeledButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Grigr Challenge Remodeled" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMastervipButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mastervip" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMaximum100000MovesButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Maximum 100,000 moves" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNamoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Namo" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokocrisisButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokocrisis" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokodealButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokodeal" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokophobiaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokophobia" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/xbluejimxLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="xbluejimx" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levels12BlocksButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="12 Blocks" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levels4RECButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="4REC" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/carlosMontiersLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Carlos Montiers" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levels23x11Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="23x11" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsInitiationButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Initiation" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/driesDeClercqLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Dries de Clercq" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levels696Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="696" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBlocksButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Blocks" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGateButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Gate" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsLinedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Lined" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMillButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mill" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsOrimazeVariationsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Orimaze-variations" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsOrimazeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Orimaze" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsOrimaze2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Orimaze 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRectangledButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Rectangled" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSquaredButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Squared" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsVariousButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Various" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsZone26Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Zone 26" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/archanfelLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Archanfel" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsABHT01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="ABHT 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsABHT02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="ABHT 02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsABHT03Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="ABHT 03" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGameOfThronesButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Game of Thrones" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/andrejCerjakLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Andrej Cerjak" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsACSmileys4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="ACSmileys 4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsACDiamondsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="AC Diamonds" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsACEasyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="AC Easy" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsACSelectedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="AC Selected" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsACSmileysButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="AC-Smileys" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsACSmileys2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="AC-Smileys_2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsACSmileys3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="AC-Smileys_3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPassingByButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Passing By" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/peterAsztalosLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Péter Asztalos" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsAKKInformatikaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="A.K.K. Informatika" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/andreBernierLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Andre Bernier" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsInitialTroubleButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Initial Trouble" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/razorflameLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Razorflame" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsAeternusButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Aeternus" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAttritionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Attrition" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAttrition05Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Attrition 05" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAttrition2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Attrition 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAttrition3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Attrition 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAttrition4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Attrition 4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChaoticCatalystsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chaotic Catalysts" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCompactCatalystsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Compact Catalysts" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCompactCatalysts02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Compact Catalysts 02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsFieryCatalystsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Fiery Catalysts" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsIonicCatalystsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Ionic Catalysts" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsIonicCatalystsReprisal01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Ionic Catalysts Reprisal 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsIonicCatalystsReprisal02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Ionic Catalysts Reprisal 02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsLexicalCatalystsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Lexical Catalysts" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsLongevityButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Longevity" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/albertoBorellaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Alberto Borella" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsAlbeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Albe" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/albertoGarciaSpirosMantzoukisLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Alberto Garcia, Spiros Mantzoukis" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsAlbertoGarciaArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alberto Garcia Arranged" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/zhenyingOthersLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Zhenying, others" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsAllRemodelsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="AllRemodels" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/michaelCFalkLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Michael C Falk" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsAlphabetSoupButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Alphabet Soup" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/milutinNegovanovicLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Milutin Negovanovic" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsArmadaCollection1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Armada Collection 1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsAvalaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Avala" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsHelpButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Help" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMitijaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mitija" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMitija1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mitija 1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMitija2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mitija 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMitija3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mitija 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMitija4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mitija 4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRebus1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Rebus 1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRedStarButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Red Star" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/tolleLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Tolle" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBackToOriginsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Back to origins" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/zivojinTrifunovicLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Zivojin Trifunovic" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBanjaKoviljacaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Banja Koviljaca" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCerButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cer" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDrinaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Drina" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDunavButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Dunav" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsFontanaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Fontana" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGucevoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Gucevo" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPacovButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Pacov" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsParkButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Park" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPauljeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Paulje" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPiramidaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Piramida" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPodrinjeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Podrinje" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsZikaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Zika" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsZika1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Zika 1" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/stanislavKanevLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Stanislav Kanev" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBaronaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Barona" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/eduardoSantosLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Eduardo Santos" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBeijingOlympicsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Beijing Olympics" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/martiHomsCaussaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Martí Homs Caussa" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSmallerThinnerEasierBetterButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Smaller, thinner, easier, better" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBoringButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Boring" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChoribanLevelsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Choriban Levels" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsHomzLevelsPartIIButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Homz Levels Part II" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsFunnyTemplateLevelsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Funny Template Levels" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsHomzLevelsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Homz Levels" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMapsAfterAllButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Maps After All" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPicolevelsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Picolevels" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/milanVukosavljevicLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Milan Vukosavljevic" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBigBenButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Big Ben" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsStariFijakerButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Stari Fijaker" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBeearButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Beear" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/blazNikolicLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Blaz Nikolic" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBlazzButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Blazz" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBlazz2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Blazz2" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/zxretrosoftLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="zxretrosoft" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBrainsportExtremeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Brainsport Extreme" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokobanExtremeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokoban Extreme" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/EricFTchongPremysilZikaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Eric F Tchong, Premysil Zika" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBravoPremysilZikaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bravo Premysil Zika" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/JorgeGloriaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Jorge Gloria" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBrunaMariaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bruna Maria" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsClassicButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Classic" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsEasy5BoxesButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Easy 5 Boxes" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSaquaremaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Saquarema" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/BrunoDruilleLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Bruno Druille" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBrunoDruilleButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bruno Druille" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/BuddyCasamisLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Buddy Casamis" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBugs1005CollectionsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bugs1005 collections" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBugsCollection138Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bugs Collection 138" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBugsCollection2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bugs collection 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBugsCollection3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bugs collection 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBugs509CollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bugs509 collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBugs550CollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bugs550 collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBugsCollection97Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bugs Collection 97" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBugsSpecialCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bugs special collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGrigChallengeVariationButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Grig Challenge Variation" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMoreBugsCollectionsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="More Bugs collections" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsBugsCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Bugs collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MVPSoftwareLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="MVP Software" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsCargoBayDeluxeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cargo Bay Deluxe" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/DavidBuchweitzLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="David Buchweitz" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsChrysalisCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisCollection2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisCollection3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisCollection4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection 4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisCollection5Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection 5" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisCollection6Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection 6" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisCollection7Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection 7" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisCollection8Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection 8" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisCollection9Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection 9" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsChrysalisCollection10Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Chrysalis Collection 10" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/VariousAuthorsLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Various Authors" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsCocktailButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cocktail" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokobigRemodelsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokobig Remodels" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsFunLevelsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="fun levels" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/VladimirTockicLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Vladimir Tockic" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsVladimirTockicCollection2DemoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Vladimir Tockic Collection 2 Demo" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsVladimirTockicCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Vladimir Tockic collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/jhogloriaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="jhogloria" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsCookieButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cookie" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MBLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="MB" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsCSokoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="C-Soko" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/DavidDahlemLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="David Dahlem" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsDD1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="DD-1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsDD2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="DD-2" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/CrazyMonkLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Crazy Monk" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsDiscipleButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Disciple" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/SchindlerZoltanLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Schindler Zoltán" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsErikaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Erika" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/ErimSeverLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Erim Sever" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsErimSeverCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Erim Sever Collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/niwaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="niwa" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsEscapologyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Escapology" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPetitesseButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Petitesse" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSquareDanceButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Square Dance" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/PatPerrodonLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Pat Perrodon" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsFauxPasButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Faux pas" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KevinCassolLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Kevin Cassol" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsFibonacciChallengeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Fibonacci Challenge" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokoChallengeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SokoChallenge" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/DriesDeClercqMarkoDzekicLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Dries de Clercq, Marko Dzekic" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsFiveBrothersButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Five Brothers" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/EdwinAbbotLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Edwin Abbot" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsFlatlandButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Flatland" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/TimLeFevreLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Tim LeFevre" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsFlyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Fly" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/GabiHanischLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Gabi Hanisch" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsGabiAndJennyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Gabi &amp; Jenny" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/GhislainMartinLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Ghislain Martin" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsGhislainMartinArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Ghislain Martin Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMondeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Monde" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokoStationButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SokoStation" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MikeMcKeeJoeHitchensLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Mike McKee, Joe Hitchens" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsGreenMachineButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Green Machine!" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/GuichardLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Guichard" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsGuichardButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Guichard" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/GyjgwLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Gyjgw" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsGyjgwArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Gyjgw Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsGyjgwCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Gyjgw Collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/RichardWestonLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Richard Weston" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsRichardWestonCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Richard Weston Collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/IanHammondLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Ian Hammond" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBrainsportButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Brainsport" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/DrFoghLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="DrFogh" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsItsAllGreekButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="It's All Greek" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNumbersByDrFoghButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Numbers by DrFogh" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsOriginal01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Original01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsOriginal02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Original02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsOriginal3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Original 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokobetButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokobet" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/IvelinGeorgievIvanovLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Ivelin Georgiev Ivanov" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTheAdventurerButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The Adventurer" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KobusTheronLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Kobus Theron" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsKobusTheronCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kobus Theron collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/JeanPierreKentLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Jean-Pierre Kent" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsJeanPierreKentButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Jean-Pierre Kent" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KenyaMaruyamaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Kenya Maruyama" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsKenyamSetAButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kenyam Set A" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KeijoSopuliLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Keijo Sopuli" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsKEASCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="KEAS Collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KevinBReillyLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Kevin B Reilly" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsKevin01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin03Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 03" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin04Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 04" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin05Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 05" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin06Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 06" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin07Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 07" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin08Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 08" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin09Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 09" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin10Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 10" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin11Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 11" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin12Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 12" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin13Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 13" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin14Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 14" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin15Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 15" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin16Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 16" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin17Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 17" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin18Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 18" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin19Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 19" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin20Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 20" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevin21Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin 21" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKevinBReillyArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kevin B. Reilly Arranged" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KonstantinosBozebergLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Konstantinos Bozeberg" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsKosButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kos" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KurtNittelLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Kurt Nittel" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsKurtNittel1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kurt Nittel 1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsKurtNittel2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kurt Nittel 2" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/LaizhufuLZYLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Laizhufu, LZY" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsLaizhufuAndLZYArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Laizhufu and LZY Arranged" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/DrakuLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Draku" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsLearningSokobanButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Learning Sokoban" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/LiJinYouLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Li Jin You" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsLiJinYouCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Li Jin You Collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/ManyAuthorsSeeEachLevelLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Many Authors, see each level" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsLomaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Loma" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMassRemodelButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mass Remodel" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsVolatileCatalystsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Volatile Catalysts" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MF8ManyAuthorsLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="MF8: Many authors" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMF8SokobanCompetitionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="MF8 Sokoban Competition" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MacTommyLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="MacTommy" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMacTommyInventionsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="MacTommy inventions" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/WardDeLangheLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Ward De Langhe" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMagicPearlsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Magic Pearls" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMoreMagicPearlsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="More Magic Pearls" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/ReinhardHielscherLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Reinhard Hielscher" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsManyBoxesButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Many Boxes" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MarcusPalstraLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Marcus Palstra" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMarcusPalstraButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Marcus Palstra" android:onClick="onButtonClicked" />
+
+    <TextView android:id="@+id/MarioBonenfantLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Mario Bonenfant" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMarioBonenfantCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mario Bonenfant collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/RikitinLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="rikitin" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMariposaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mariposa" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRikymanButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Rikyman" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/UnionSoftwareOfSilesiaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Union Software of Silesia" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMasterHeadButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Master Head" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/YorkShenLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="York Shen" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMicroban01ArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Microban 01 Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMicroban02ArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Microban 02 Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatch01ArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch 01 Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatch02ArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch 02 Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatch03ArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch 03 Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatch04ArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch 04 Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatch05ArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch 05 Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatch06ArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch 06 Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSasquatch07ArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sasquatch 07 Arranged" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsYorkShenCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="York Shen Collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/DriesDeClercqMarkAnianLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Dries de Clercq, Mark, anian" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMillRemodelButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mill Remodel" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MonryLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="monry" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMonryCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Monry Collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MonryPandaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="monry, Panda" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMonryAndPandaArrangedButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Monry and Panda Arranged" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/HirohikoNakamiyaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Hirohiko Nakamiya" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMonsterSokobanButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Monster Sokoban" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNakamiyaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Nakamiya" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNakamiyaJoyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Nakamiya Joy" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNakamiyaLimitButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Nakamiya Limit" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsNakamiyaPracticeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Nakamiya Practice" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/ShaggathLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Shaggath" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsMulholland2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mulholland 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsMulhollandDButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Mulholland D" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsV2009Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="V2009" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsV2010Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="V2010" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsV2014Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="V2014" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/DrFoghArchanfelJosephLTraubLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="DrFogh, Archanfel, Joseph L Traub" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsOriginalExtraSharpenButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Original Extra Sharpen" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/FindusLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Findus" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsPayback01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPayback02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPayback03Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 03" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPayback04Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 04" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPayback05Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 05" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPayback06Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 06" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPayback07Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 07" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPayback08Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 08" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPayback09Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 09" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsPayback10Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Payback 10" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/PerkaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Perka" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsJokeButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Joke" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MorganineLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Morganine" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsRandomsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Randoms" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/RogerDelaporteLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Roger Delaporte" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsRdlomButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Rdlom" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRogerDelaporteButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Roger Delaporte" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MarcusHofLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Marcus Hof" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsRevenge13Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 13" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge14Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 14" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge15Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 15" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge16Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 16" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge17Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 17" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge18Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 18" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge19Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 19" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge20Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 20" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge21Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 21" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge22Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 22" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge23Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 23" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge24Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 24" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge25Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 25" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge26Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 26" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge27Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 27" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge28Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 28" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge29Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 29" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge30Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 30" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge31Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 31" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge32Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 32" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge33Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 33" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge34Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 34" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge35Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 35" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge36Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 36" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge37Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 37" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge38Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 38" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevenge39Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge 39" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection03Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 03" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection04Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 04" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection05Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 05" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection06Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 06" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection07Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 07" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection08Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 08" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection09Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 09" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection10Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 10" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection11Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 11" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsRevengeCollection12Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Revenge Collection 12" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/TIAOALabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="TIAOA" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSBMendonca01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SBMendonca 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSBMendonca02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SBMendonca 02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSBMendonca03Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SBMendonca 03" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSBMendonca04Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SBMendonca 04" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSBMendonca05Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SBMendonca 05" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSBMendonca06Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SBMendonca 06" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSBMendoncaLivresButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SBMendonca (Livres)" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSBMendoncaModificationsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SBMendonca (Modifications)" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSBMendoncaRemodeledButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SBMendonca (Remodeled)" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MuhammadUmarLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Muhammad Umar" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTheFirstOneButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The First One" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/PoemyslZikaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Pøemysl Zíka" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSecundusGradusAdOlympoButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Secundus gradus ad Olympo" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsTertiusGradusAdOlympo1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Tertius gradus ad Olympo 1" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/SergBelyaevLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Serg Belyaev" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSergBelyaev1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serg Belyaev 1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSergBelyaev2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serg Belyaev 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSergBelyaev3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serg Belyaev 3" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSergBelyaev4Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serg Belyaev 4" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSergBelyaev5Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serg Belyaev 5" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSergBelyaev6Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Serg Belyaev 6" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/PhilShapiroLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Phil Shapiro" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSimpleCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Simple collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/YotyotLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="yotyot" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSimplisticButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Simplistic" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/LarsNilssonLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Lars Nilsson" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSimplyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Simply" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokoLasseButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SokoLasse" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokolasse2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokolasse 2" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KevinBReillyGeraldHollerLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Kevin B Reilly, Gerald Holler" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSokoMindButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SokoMind" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/WayneCampbellLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Wayne Campbell" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSokobanOriginalPuzzlesTributeLButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokoban Original Puzzles Tribute L" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/EinarSaukasLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Einar Saukas" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSokoBonusButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="SOKO-BONUS" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/LauraWheelerLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Laura Wheeler" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSokobanJunior1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokoban Junior 1" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSokobanJunior2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokoban Junior 2" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/PK2497Label" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="PK2497" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSokoking01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sokoking 01" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MatthiasMuhPauligkLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Matthias 'muh' Pauligk" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTheSolversUnsolvableButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The Solver's unsolvable" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSundayWarmupButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sunday Warmup" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/AlekseyKrupenkoLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Aleksey Krupenko" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSonicButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sonic" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSonic2Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sonic 2" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSonic3Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sonic 3" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KseniyaMierzejewskaLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Kseniya Mierzejewska" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSpiralsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Spirals" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/SpirosMantzoukisLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Spiros Mantzoukis" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSpiros01Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Spiros 01" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSpiros02Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Spiros 02" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSpiros03Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Spiros 03" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSpiros04Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Spiros 04" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSpiros05Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Spiros 05" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSpiros06Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Spiros 06" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSpiros07Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Spiros 07" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsSpiros8Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Spiros 8" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/JFranklinMentzerLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="J Franklin Mentzer" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsStillMoreCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Still More collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/SylvainGravejatGuillaumeGravejatLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Sylvain Gravejat, Guillaume Gravejat" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSylvainGravejatButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Sylvain Gravejat" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/SeppolinoLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Seppolino" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSymmetrixxButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Symmetrixx" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KenichiroTakahashiTakakenLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Ken'ichiro Takahashi (takaken)" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTakakenCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Takaken collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MarkLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Mark" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTheHouseButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The House" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/XiBeiTianLangLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="XiBei Tian Lang" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTianLangButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Tian Lang" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/JohnPolhemusLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="John Polhemus" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTitleScreensButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Title Screens" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/WilfridGeiserLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Wilfrid Geiser" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTrapdooooooooorsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Trapdooooooooors" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/MartinPHollandLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Martin P Holland" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTwistyButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Twisty" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/WMDekkerLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="W M Dekker" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsSoundextensionsAndCirclesButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Soundextensions and Circles" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/RickSladkeyLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Rick Sladkey" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsTheWarehouseIVerticalMobilityButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="The Warehouse I - Vertical Mobility" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/IrohLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Iroh" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsWarehouseButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Warehouse" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/BrianDamgaardLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Brian Damgaard" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsYASGenButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="YASGen" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/YutLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Yut" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsYutButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Yut" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/ZbigniewKornasLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Zbigniew Kornas" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsZbigniewKornasButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Zbigniew Kornas" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/ZeljkoNegovanovicLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Zeljko Negovanovic" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsZeljaButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Zelja" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsZelja1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Zelja 1" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/BrianKentLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Brian Kent" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsBrianKentsSokoban2KButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Brian Kent's Sokoban2K" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/DoreenKaufmannRainerKaufmannLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Doreen Kaufmann, Rainer Kaufmann" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsDemonsAndDiamondsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Demons &amp; Diamonds" android:onClick="onButtonClicked" />
+
+      <Button android:id="@+id/levelsCubesAndTubesButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Cubes &amp; Tubes" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/FrantisekPokornyLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Frantisek Pokorny" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsFrantisekPokornyCollectionButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Frantisek Pokorny collection" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/JohnCDavisLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="John C Davis" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsJCDLevelsButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="jcd levels" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/JorisWitLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Joris Wit" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsJw2005Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="jw2005" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KarlHeinzBohmLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Karl-Heinz Böhm" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsKalle1Button" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kalle1" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/KirillLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="Kirill" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsKisserButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="Kisser" android:onClick="onButtonClicked" />
+
+
+    <TextView android:id="@+id/OOXIANLabel" android:layout_width="fill_parent" android:layout_height="wrap_content"
+      android:text="00XIAN" android:textSize="18sp" android:textStyle="bold" android:gravity="center" android:paddingTop="10dp" android:paddingBottom="5dp" />
+
+      <Button android:id="@+id/levelsOoxianButton" android:layout_width="fill_parent" android:layout_height="wrap_content"
+        android:text="ooxian" android:onClick="onButtonClicked" />
+
+  </LinearLayout>
+
+</ScrollView>
